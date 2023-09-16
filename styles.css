@@ -1,0 +1,105 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+
+section {
+    padding: 40px;
+}
+
+
+#about {
+    background-color: #fff;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    background-color: #f5f5f5;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+@keyframes placeholderAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Add your own custom styles and animations below */
+
+/* Example animation for an element with class 'animated-element' */
+.animated-element {
+    animation: placeholderAnimation 2s infinite;
+}
+
+/* Media queries for responsiveness (customize as needed) */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
